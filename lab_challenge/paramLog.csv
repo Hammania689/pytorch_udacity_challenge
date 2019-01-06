@@ -1,0 +1,7 @@
+accuracy,testing_loss,base_model,added_arc,epochs,batch_size,optimizer,init_lr
+"tensor(0.7579, dtype=torch.float64)",1.260269237613911,ResNet,"Sequential(
+  (fc1): Linear(in_features=2048, out_features=1000, bias=True)
+  (fc1_relu): ReLU()
+  (dropout1): Dropout(p=0.2)
+  (fc2): Linear(in_features=1000, out_features=102, bias=True)
+)",21,32,SGD,0.01

@@ -1,5 +1,8 @@
-# Model checkpoints
+# Model checkpoints and images
 *.pth
+*.jpeg
+*.jpg 
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
